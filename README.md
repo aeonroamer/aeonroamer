@@ -106,3 +106,24 @@ let server_explorer = Project {
     ],
 };
 ```
+
+#### 🗄️ [sudm](https://github.com/aeonroamer/sudm)
+
+```rust
+let sudm = Project {
+    name: "sudm",
+    what: "an async CLI that syncs local .surql files with a live SurrealDB",
+    platform: "Cross-platform CLI",
+    tech: vec!["Rust", "Tokio", "Clap", "SurrealDB SDK"],
+    features: vec![
+        "scaffolds schema, function and event folders",
+        "auto-provisions the namespace and database if missing",
+        "applies definitions in order using idempotent upserts",
+        "connects over ws, wss, http or https",
+    ],
+    challenges: vec![
+        "declarative sync with no migration state table",
+        "keeping schema, functions and events in a safe apply order",
+    ],
+};
+```
