@@ -35,7 +35,7 @@ let aeon = Engineer {
     stack: Stack {
         lang: vec!["Rust"],
         backend: vec!["Axum", "Tokio", "AWS Lambda"],
-        data: vec!["SurrealDB"],
+        data: vec!["SurrealDB", "redb"],
         also: vec!["GPUI", "Leptos", "Docker"],
     },
     now: "a shared auth service in Axum for multiple apps",
@@ -58,7 +58,7 @@ let scan_fill = Project {
     name: "Scan & Fill",
     what: "scan a bill's barcode, and it gets typed into payment software for you",
     platform: "Windows desktop",
-    tech: vec!["Rust", "GPUI", "SurrealDB (SurrealKV)", "Tokio", "Win32 API", "WiX"],
+    tech: vec!["Rust", "GPUI", "redb", "Tokio", "Win32 API", "WiX"],
     architecture: Workspace {
         client: "GPUI app: screens, pages, state, local database",
         shared: "bill formats and barcode parsing, UI-free",
