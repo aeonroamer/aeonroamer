@@ -1,7 +1,7 @@
 <img src="assets/banner.svg" alt="Aeon Roamer — Rust backend and systems engineer" width="100%" />
 
 <h1>
-  Hi, I'm Aeon Roamer!
+  Hi, I'm Asad Ali!
   <img src="https://skillicons.dev/icons?i=rust" height="36" alt="Rust" />
 </h1>
 
